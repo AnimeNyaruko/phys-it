@@ -7,7 +7,7 @@ export default function Page() {
 		<div className="page-login flex h-screen w-screen items-center justify-center">
 			<form
 				className="flex h-fit w-1/3 flex-col items-center gap-y-10 rounded-xl bg-[rgba(255,255,255,0.15)] px-20 py-10 backdrop-blur-sm"
-				onSubmit={(e: any) => {
+				onSubmit={(e) => {
 					e.preventDefault();
 				}}
 			>
