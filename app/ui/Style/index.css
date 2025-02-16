@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.page-login {
+	background-image: url(/login-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
