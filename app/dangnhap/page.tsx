@@ -1,6 +1,6 @@
 "use client";
 
-import Input from "@/components/input";
+import Input from "@/app/ui/components/input";
 
 export default function Page() {
 	return (
@@ -11,8 +11,10 @@ export default function Page() {
 					e.preventDefault();
 				}}
 			>
-				<p className="text-5xl font-bold text-white">ĐĂNG NHẬP</p>
-				<Input placeholder="Đăng nhập | Email" name="username" />
+				<p className="text-center text-3xl font-bold text-white lg:text-5xl">
+					ĐĂNG NHẬP
+				</p>
+				<Input placeholder="Tên người dùng | Email" name="username" />
 				<Input placeholder="Mật khẩu" type="password" name="password" />
 				<button
 					className="cursor-pointer rounded-2xl border-2 border-green-400 px-7 py-5 text-center text-2xl font-bold text-[rgba(255,255,255,.75)] hover:bg-green-400 hover:text-white focus:bg-green-400 focus:text-white"

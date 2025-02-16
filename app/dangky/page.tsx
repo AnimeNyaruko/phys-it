@@ -1,6 +1,6 @@
 "use client";
 
-import Input from "@/components/input";
+import Input from "@/app/ui/components/input";
 
 export default function Page() {
 	return (
